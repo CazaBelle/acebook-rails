@@ -169,6 +169,7 @@ I want to redirect them to a 404 page if a user does not exist.
 * $ `git remote -v` #check you have a heroku remote
 * $ `heroku git:remote  -a <remote name>`
 * $ `git remote rename heroku <new-remote-name>`
+* $ `travis encrypt $(heroku auth:token) --add deploy.api_key`#add the return key to your travis.yml file
 * $ `git push heroku master` #deploys your app
 * Or visit [Acebook Dragons on Heroku for a demo](https://acebook-dragons.herokuapp.com)
 
