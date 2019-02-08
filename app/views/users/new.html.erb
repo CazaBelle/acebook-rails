@@ -1,8 +1,4 @@
-<h1>Users#new</h1>
-
-
-<h1></h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h1 id = "welcome_title">Welcome to Acebook!</h1>
 
 <%= form_for :users, local: true do |form| %>
 
@@ -34,8 +30,5 @@
     <%= form.label :password %><br>
     <%= form.password_field :password %>
   </p>
-
-  <p>
-    <%= form.submit %>
-  </p>
+    <%= form.submit class: "btn btn-info" %>
 <% end %>

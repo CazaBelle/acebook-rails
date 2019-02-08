@@ -62,4 +62,4 @@ gem 'travis', '~> 1.8'
 
 gem 'jquery-rails', '~> 4.3'
 
-gem "bootstrap-sass", "~> 3.4"
+gem 'bootstrap-sass', '~> 3.4'
