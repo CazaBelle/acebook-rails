@@ -23,7 +23,7 @@ class PostsController < ApplicationController
     @post.destroy
     redirect_to current_user
   end
-  
+
   def edit
     @post = Post.find(params[:id])
   end
