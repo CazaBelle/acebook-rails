@@ -1,4 +1,4 @@
-# AceBook
+# AceBook 
 [![Build Status](https://travis-ci.org/CazaBelle/acebook-rails-smoking-dragons.svg?branch=master)](https://travis-ci.org/CazaBelle/acebook-rails-smoking-dragons)
 
 The latest Facebook clone that allows you to keep up to date with all of your friends' latest ramblings.
@@ -157,7 +157,7 @@ I want to redirect them to a 404 page if a user does not exist.
 ```
 
 ## Testing
-* $`rspec`
+* $`rspec` 
 
 ## Deployment
 * [Hosted on Heroku](https://acebook-dragons.herokuapp.com)
