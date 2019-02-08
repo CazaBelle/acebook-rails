@@ -164,7 +164,13 @@ I want to redirect them to a 404 page if a user does not exist.
 - We have accounted for as many edge cases as we could think of during our tests.
 
 ## Deployment
-* [Hosted on Heroku](https://acebook-dragons.herokuapp.com)
+* $ `heroku login` #OA with github
+* $ `heroku create`
+* $ `git remote -v` #check you have a heroku remote
+* $ `heroku git:remote  -a <remote name>`
+* $ `git remote rename heroku <new-remote-name>`
+* $ `git push heroku master` #deploys your app
+* Or visit [Acebook Dragons on Heroku for a demo](https://acebook-dragons.herokuapp.com)
 
 ## Contributing
 See [Contributing.md](https://github.com/CazaBelle/acebook-rails-smoking-dragons/blob/master/CONTRIBUTING.md) to contribute
