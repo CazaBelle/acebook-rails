@@ -1,4 +1,4 @@
-# AceBook
+# AceBook 
 [![Build Status](https://travis-ci.org/CazaBelle/acebook-rails-smoking-dragons.svg?branch=master)](https://travis-ci.org/CazaBelle/acebook-rails-smoking-dragons)
 
 The latest Facebook clone that allows you to keep up to date with all of your friends' latest ramblings.
@@ -157,7 +157,11 @@ I want to redirect them to a 404 page if a user does not exist.
 ```
 
 ## Testing
-* $`rspec`
+* $`rspec` to run tests in console
+- We approached with as solid a BDD/TDD cycle we could. We tested each feature before implementation and followed rails guidance on using mostly feature tests to guide our development.
+- We currently have 21 tests of our program.
+- We currently have test coverage of 99.64% with one line missed according to simple-cov.
+- We have accounted for as many edge cases as we could think of during our tests.
 
 ## Deployment
 * [Hosted on Heroku](https://acebook-dragons.herokuapp.com)
