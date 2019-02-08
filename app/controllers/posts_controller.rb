@@ -42,6 +42,7 @@ class PostsController < ApplicationController
   def edit
     @post = Post.find(params[:id])
     unless @post.sender_id == current_user.id
+
       flash.now[:alert] = 'NOT YOUR POST'
       render :show
     end
