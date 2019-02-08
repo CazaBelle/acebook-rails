@@ -1,9 +1,8 @@
-
-<% provide(:title, "Log in") %>
-<h1>Log in</h1>
-
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
+<div class = "container">
+  <div class="form-inline">
+    <% provide(:title, "Log in") %>
+    <h1 id = "welcome_title">Welcome to Acebook!</h1>
+    <h5 id = "courier">Enter Your Details</h5>
     <%= form_for(:session, url: login_path) do |form| %>
 
       <%= form.label :email %>
